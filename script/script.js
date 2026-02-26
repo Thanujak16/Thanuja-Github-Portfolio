@@ -1,4 +1,4 @@
-const USERNAME = 'Nitish36'; // Change this!
+const USERNAME = 'Thanujak16'; // Change this!
 
 async function initDashboard() {
     // 1. Fetch User Stats
@@ -77,5 +77,6 @@ async function initDashboard() {
         actTable.innerHTML += `<tr><td>${ev.repo.name.split('/')[1]}</td><td>${ev.type.replace('Event','')}</td><td>${new Date(ev.created_at).toLocaleDateString()}</td></tr>`;
     });
 }
+
 
 initDashboard();
