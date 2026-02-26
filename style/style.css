@@ -1,0 +1,43 @@
+:root {
+    --bg-color: #0b0e14;
+    --sidebar-color: #11151c;
+    --card-color: #1a1f29;
+    --text-color: #ffffff;
+    --accent-gold: #ffb400;
+    --accent-cyan: #00f2ff;
+    --accent-purple: #bc6ff1;
+    --border-color: #2d333b;
+}
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; display: flex; height: 100vh; overflow: hidden; }
+
+/* Sidebar */
+.sidebar { width: 220px; background: var(--sidebar-color); border-right: 1px solid var(--border-color); padding: 20px; display: flex; flex-direction: column; gap: 20px; }
+.logo { font-weight: bold; font-size: 1.2rem; color: var(--accent-gold); border-bottom: 1px solid var(--border-color); padding-bottom: 15px; }
+.filter-group { font-size: 0.8rem; color: #8b949e; }
+.filter-btn { background: #21262d; border: 1px solid var(--border-color); color: white; padding: 5px 10px; border-radius: 4px; margin-top: 5px; cursor: pointer; }
+
+/* Main Content */
+.main-content { flex: 1; padding: 25px; overflow-y: auto; }
+header { margin-bottom: 30px; }
+header h1 { margin: 0; font-size: 1.5rem; letter-spacing: 1px; }
+
+/* KPI Row */
+.kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 25px; }
+.kpi-card { background: var(--card-color); padding: 20px; border-radius: 8px; border-left: 4px solid var(--accent-cyan); position: relative; }
+.kpi-card.stars { border-left-color: var(--accent-gold); }
+.kpi-card.repos { border-left-color: var(--accent-cyan); }
+.kpi-card.followers { border-left-color: var(--accent-purple); }
+.kpi-value { font-size: 1.8rem; font-weight: bold; display: block; }
+.kpi-label { color: #8b949e; font-size: 0.8rem; text-transform: uppercase; }
+
+/* Charts Row */
+.charts-row { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-bottom: 25px; }
+.chart-container { background: var(--card-color); padding: 20px; border-radius: 8px; height: 300px; }
+
+/* Table Section */
+.tables-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+table { width: 100%; border-collapse: collapse; background: var(--card-color); border-radius: 8px; font-size: 0.85rem; }
+th { text-align: left; padding: 12px; background: #21262d; color: #8b949e; }
+td { padding: 12px; border-bottom: 1px solid var(--border-color); }
+.tag { background: #238636; padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; }
