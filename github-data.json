@@ -36,7 +36,7 @@
     "private_gists": 0,
     "total_private_repos": 0,
     "owned_private_repos": 0,
-    "disk_usage": 38272,
+    "disk_usage": 38282,
     "collaborators": 0,
     "two_factor_authentication": false,
     "plan": {
@@ -1575,14 +1575,14 @@
       "releases_url": "https://api.github.com/repos/Thanujak16/Thanuja-Github-Portfolio/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Thanujak16/Thanuja-Github-Portfolio/deployments",
       "created_at": "2026-02-26T06:32:57Z",
-      "updated_at": "2026-06-10T13:48:41Z",
-      "pushed_at": "2026-06-10T13:47:19Z",
+      "updated_at": "2026-06-11T14:13:15Z",
+      "pushed_at": "2026-06-11T14:10:36Z",
       "git_url": "git://github.com/Thanujak16/Thanuja-Github-Portfolio.git",
       "ssh_url": "git@github.com:Thanujak16/Thanuja-Github-Portfolio.git",
       "clone_url": "https://github.com/Thanujak16/Thanuja-Github-Portfolio.git",
       "svn_url": "https://github.com/Thanujak16/Thanuja-Github-Portfolio",
       "homepage": "https://thanujak16.github.io/Thanuja-Github-Portfolio/",
-      "size": 87,
+      "size": 97,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -1842,5 +1842,5 @@
       }
     }
   ],
-  "lastUpdated": "6/11/2026, 2:10:35 PM"
+  "lastUpdated": "6/12/2026, 1:38:43 PM"
 }
