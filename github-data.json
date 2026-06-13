@@ -1575,8 +1575,8 @@
       "releases_url": "https://api.github.com/repos/Thanujak16/Thanuja-Github-Portfolio/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Thanujak16/Thanuja-Github-Portfolio/deployments",
       "created_at": "2026-02-26T06:32:57Z",
-      "updated_at": "2026-06-11T14:13:15Z",
-      "pushed_at": "2026-06-11T14:10:36Z",
+      "updated_at": "2026-06-12T13:38:52Z",
+      "pushed_at": "2026-06-12T13:38:44Z",
       "git_url": "git://github.com/Thanujak16/Thanuja-Github-Portfolio.git",
       "ssh_url": "git@github.com:Thanujak16/Thanuja-Github-Portfolio.git",
       "clone_url": "https://github.com/Thanujak16/Thanuja-Github-Portfolio.git",
@@ -1842,5 +1842,5 @@
       }
     }
   ],
-  "lastUpdated": "6/12/2026, 1:38:43 PM"
+  "lastUpdated": "6/13/2026, 12:01:39 PM"
 }
